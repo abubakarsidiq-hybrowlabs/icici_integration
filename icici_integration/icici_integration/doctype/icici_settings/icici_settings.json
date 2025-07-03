@@ -1,0 +1,167 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-06-19 18:06:59.598815",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_section",
+  "aggr_id",
+  "corp_id",
+  "column_break_cavf",
+  "aggr_name",
+  "user_id",
+  "column_break_aqgj",
+  "urn",
+  "urls_section",
+  "api_key",
+  "otp_url",
+  "payment_url",
+  "enquiry_url",
+  "account_section",
+  "debit_account",
+  "mode_of_payment",
+  "column_break_ceqo",
+  "debit_account_no",
+  "ifsc_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "aggr_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "AGGR_ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "corp_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CORP_ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cavf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aggr_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "AGGR_NAME",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "USER_ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_aqgj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "urn",
+   "fieldtype": "Data",
+   "label": "URN",
+   "reqd": 1
+  },
+  {
+   "fieldname": "urls_section",
+   "fieldtype": "Section Break",
+   "label": "URLS"
+  },
+  {
+   "fieldname": "otp_url",
+   "fieldtype": "Small Text",
+   "label": "OTP URL",
+   "max_height": "2rem",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_url",
+   "fieldtype": "Small Text",
+   "label": "Payment URL",
+   "max_height": "2rem",
+   "reqd": 1
+  },
+  {
+   "fieldname": "enquiry_url",
+   "fieldtype": "Small Text",
+   "label": "Enquiry URL",
+   "max_height": "2rem",
+   "reqd": 1
+  },
+  {
+   "fieldname": "account_section",
+   "fieldtype": "Section Break",
+   "label": "Account"
+  },
+  {
+   "fieldname": "debit_account",
+   "fieldtype": "Link",
+   "label": "Debit Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_ceqo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debit_account_no",
+   "fieldtype": "Data",
+   "label": "Debit Account No."
+  },
+  {
+   "fieldname": "ifsc_code",
+   "fieldtype": "Data",
+   "label": "IFSC Code"
+  },
+  {
+   "fieldname": "mode_of_payment",
+   "fieldtype": "Link",
+   "label": "Mode of Payment",
+   "options": "Mode of Payment"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Small Text",
+   "label": "API KEY",
+   "max_height": "2rem",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-07-02 20:36:05.839889",
+ "modified_by": "Administrator",
+ "module": "ICICI Integration",
+ "name": "ICICI Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
